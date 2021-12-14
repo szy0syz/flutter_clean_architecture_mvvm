@@ -8,7 +8,9 @@
 
 ```dart
 class MyApp extends StatefulWidget {
-  MyApp._internal(); // private named constructor
+  // private named constructor
+  MyApp._internal();
+
   int appState = 0;
 
   // single instance -- singleton
