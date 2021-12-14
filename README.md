@@ -33,9 +33,25 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
+- `/Users/gtkj1/git/flutter_clean_architecture_mvvm/android/app/src/main/res/values/color.xml`
+- `/Users/gtkj1/git/flutter_clean_architecture_mvvm/android/app/src/main/res/values/strings.xml`
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ED9728</color>
+</resources>
+```
+
+```xml
+ <?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tut App</string>
+</resources>
+```
+
 ## Layers in DDD Projects
 
 > 是时候否加餐学点 `DDD` 了。
 
 ![002](assets/002.png)
-
