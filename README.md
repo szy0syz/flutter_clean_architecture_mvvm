@@ -35,6 +35,7 @@ class _MyAppState extends State<MyApp> {
 
 ## Layers in DDD Projects
 
-> 是是否加餐学点 `DDD` 了。
+> 是时候否加餐学点 `DDD` 了。
 
 ![002](assets/002.png)
+
