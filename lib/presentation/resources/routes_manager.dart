@@ -1,3 +1,4 @@
+import 'package:complete_advanced_flutter/presentation/resources/strings_manager.dart';
 import 'package:flutter/material.dart';
 
 import '../forgot_password/forgot_password.dart';
@@ -44,9 +45,11 @@ class RouteGenerator {
     return MaterialPageRoute(
       builder: (_) => Scaffold(
         appBar: AppBar(
-          title: Text("No Route Found"),
+          title: Text(AppStrings.noRouteFound),
         ),
-        body: Center(child: Text("No Route Found")),
+        body: Center(
+          child: Text(AppStrings.noRouteFound),
+        ),
       ),
     );
   }
